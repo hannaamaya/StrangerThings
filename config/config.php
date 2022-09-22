@@ -1,7 +1,17 @@
-<?php
+<?php 
+	
+	//define("BASE_URL", "http://localhost/proyecto_final/");
+	const BASE_URL = "http://localhost/proyecto_final/";
 
-    //define("BASE_URL", "http://localhost/strangerThingsApp/");
-    const BASE_URL = "http://localhost/strangerThingsApp/";
-    const LIBS = "Libraries/";
-    const VIEWS = "Views/";
-?>
+	//Zona horaria
+	date_default_timezone_set('America/Bogota');
+
+	//Datos de conexión a Base de Datos
+	const DB_HOST = "localhost";
+	const DB_NAME = "registro";
+	const DB_USER = "root";
+	const DB_PASSWORD = "12345";
+	const DB_CHARSET = "charset=utf8";
+
+ ?>
+
